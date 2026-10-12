@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f5">
+  <meta name="description" content="Daulet Imangaliyev — M.Sc. Mathematical Engineering, Quantitative Finance, Politecnico di Milano. Curriculum vitae and professional contacts.">
+  <meta property="og:title" content="Daulet Imangaliyev">
+  <meta property="og:description" content="Mathematical Engineering · Quantitative Finance · Politecnico di Milano">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://beadsforpgs.github.io/">
+  <title>Daulet Imangaliyev — Quantitative Finance</title>
+  <link rel="icon" href="./favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f7f7f5;
+      --card: #ffffff;
+      --ink: #242424;
+      --muted: #6e6e6b;
+      --rule: #e5e5e2;
+      --focus: #435978;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--background);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page {
+      min-height: 100vh;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 40px 18px;
+    }
+    .card {
+      width: min(100%, 624px);
+      padding: 39px 47px 29px;
+      background: var(--card);
+      border: 1px solid var(--rule);
+      box-shadow: 0 15px 50px rgb(22 22 22 / 3%);
+    }
+    .masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 24px;
+      gap: 16px;
+    }
+    .logo {
+      width: 43px;
+      height: 43px;
+      display: block;
+      object-fit: contain;
+      border: 1px solid var(--rule);
+      padding: 2px;
+    }
+    .location {
+      font-size: 10px;
+      letter-spacing: .13em;
+      font-weight: 600;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    .intro { padding: 55px 0 37px; }
+    h1 {
+      font-family: "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
+      font-size: clamp(38px, 6vw, 55px);
+      font-weight: 400;
+      letter-spacing: -.052em;
+      line-height: 1.07;
+      margin: 0 0 21px;
+    }
+    .role { margin: 0 0 4px; font-size: 15px; font-weight: 600; line-height: 1.5; }
+    .school { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.6; }
+    .section-label {
+      font-size: 10px;
+      color: var(--muted);
+      letter-spacing: .15em;
+      font-weight: 700;
+      margin: 0 0 14px;
+    }
+    .links { display: grid; gap: 10px; }
+    .link {
+      width: 100%;
+      min-height: 72px;
+      padding: 13px 19px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      border: 1px solid var(--rule);
+      background: #fff;
+      text-decoration: none;
+      color: var(--ink);
+      transition: background-color .16s ease, border-color .16s ease;
+    }
+    .link:hover { background: #f9f9f7; border-color: #cfcfcc; }
+    .link:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+    .link.primary { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .link.primary:hover { background: #393939; border-color: #393939; }
+    .link-content { min-width: 0; }
+    .link-title { display: block; font-size: 15px; line-height: 1.3; font-weight: 600; }
+    .link-detail {
+      display: block;
+      font-size: 12px;
+      margin-top: 4px;
+      line-height: 1.35;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+    .link.primary .link-detail { color: #c9c9c7; }
+    .arrow { flex: 0 0 auto; font-size: 21px; font-weight: 400; line-height: 1; opacity: .76; }
+    footer { margin-top: 42px; padding-top: 17px; border-top: 1px solid var(--rule); color: #92928f; font-size: 11px; }
+    @media (max-width: 640px) {
+      .page { padding: 16px 12px; }
+      .card { padding: 27px 27px 24px; }
+      .masthead { padding-bottom: 20px; }
+      .intro { padding: 42px 0 32px; }
+      h1 { font-size: clamp(35px, 9vw, 51px); }
+      .links { gap: 9px; }
+      footer { margin-top: 32px; }
+    }
+    @media (max-width: 390px) {
+      .card { padding: 23px 20px 22px; }
+      h1 { font-size: 37px; }
+      .link { padding: 12px 14px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main class="card">
+      <header class="masthead">
+        <img class="logo" src="./di-mark.png" alt="DI monogram" width="43" height="43">
+        <span class="location">MILAN, ITALY</span>
+      </header>
+
+      <section class="intro" aria-labelledby="name">
+        <h1 id="name">Daulet Imangaliyev</h1>
+        <p class="role">M.Sc. in Mathematical Engineering</p>
+        <p class="school">Quantitative Finance · Politecnico di Milano</p>
+      </section>
+
+      <nav aria-label="Contact and documents">
+        <p class="section-label">CONTACT &amp; DOCUMENTS</p>
+        <div class="links">
+          <a class="link primary" href="./CV.pdf" target="_blank" rel="noopener" aria-label="Open curriculum vitae PDF">
+            <span class="link-content">
+              <span class="link-title">Curriculum Vitae</span>
+              <span class="link-detail">View PDF</span>
+            </span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="link" href="https://www.linkedin.com/in/daulet-imangaliyev" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn profile">
+            <span class="link-content">
+              <span class="link-title">LinkedIn</span>
+              <span class="link-detail">Professional profile</span>
+            </span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="link" href="https://github.com/BeadsForPGs" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile">
+            <span class="link-content">
+              <span class="link-title">GitHub</span>
+              <span class="link-detail">Code &amp; repositories</span>
+            </span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="link" href="mailto:daulet.imangaliyev@studio.unibo.it" aria-label="Email Daulet Imangaliyev">
+            <span class="link-content">
+              <span class="link-title">Email</span>
+              <span class="link-detail">daulet.imangaliyev@studio.unibo.it</span>
+            </span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </nav>
+      <footer>© 2026 Daulet Imangaliyev</footer>
+    </main>
+  </div>
+</body>
+</html>
